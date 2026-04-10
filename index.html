@@ -1,240 +1,153 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Jintao Meng (孟金涛)</title>
-  </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 180px;
+            border: 1px solid #ddd;
+        }
+        h1 { margin-bottom: 5px; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+        section { display: flex; margin-bottom: 15px; }
+        .section-label {
+            width: 180px;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 20px;
+        }
+        .section-content { flex: 1; }
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; }
+        .footer-info { font-size: 0.85em; color: #666; margin-top: 50px; }
+    </style>
+</head>
 
-  <body>
+<body>
     <h1>Hello world!</h1>
-    <p>Welcome to Jintao  Meng's GitHub Pages site!</p>
+    <p>Welcome to Jintao Meng's GitHub Pages site!</p>
+
+    <header>
+        <img src="./jintao/meng.jpg" alt="Jintao Meng" class="profile-pic">
+        <div>
+            <p>
+                <strong>Jintao Meng</strong> is an Associate Researcher at the 
+                <a href="http://www.siat.ac.cn/" target="_blank">Shenzhen Institute of Advanced Technology, CAS</a>. 
+                He received his Ph.D. in computer architecture from the Institute of Computing Technology in 2016. 
+                His research interests include high-performance computing, deep learning, bioinformatics, and graph computing.
+            </p>
+            <p>
+                He has held positions at <strong>Tencent AI Lab</strong> (Senior Research Engineer), 
+                <strong>Huawei's Noah's Ark Laboratory</strong> (Visiting Scholar), and 
+                <strong>Argonne National Laboratory</strong> (Visiting Scholar).
+            </p>
+        </div>
+    </header>
+
+    <hr>
+
+    <section>
+        <div class="section-label">Address:</div>
+        <div class="section-content">
+            NO. 1068, Xueyuan Avenue, Shenzhen University Town, Nanshan Dist,<br>
+            Shenzhen, P.R. China 518055<br>
+            Phone: (86)0755-86392367, 15602983160<br>
+            Email: <a href="mailto:jt.meng@siat.ac.cn">jt.meng@siat.ac.cn</a>, 
+            <a href="mailto:meng.jintao@gmail.com">meng.jintao@gmail.com</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="section-label">Research Interests:</div>
+        <div class="section-content">
+            <ul>
+                <li>High Performance Computing</li>
+                <li>Parallel Graph Algorithms</li>
+                <li>Performance Optimization and Tuning</li>
+                <li><a href="./jintao/CV/CV_jtmengen.pdf" target="_blank">Full CV</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="section-label">PH.D Dissertation:</div>
+        <div class="section-content">
+            <strong>Title: Highly Scalable De Novo Genome Assembly</strong>
+            <ul>
+                <li><a href="./jintao/slides/jtmeng_Research_Proposal.pptx">Research Proposal (开题报告)</a></li>
+                <li><a href="./jintao/slides/jtmeng_Midterm.pptx">Mid-term Report (中期报告)</a></li>
+                <li><a href="./jintao/paper/jtmeng_dissertation.pdf">Complete Dissertation</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="section-label">
+            Selected Publications:<br>
+            <small>(<a href="http://www.informatik.uni-trier.de/%7Eley/pers/hd/b/Bao:Yungang.html" target="_blank">Full List</a>)</small>
+        </div>
+        <div class="section-content">
+            <ul>
+                <li>
+                    Cong Ma, et al. <strong>NM-SpMM: Accelerating Matrix Multiplication Using N:M Sparsity with GPGPU</strong>, 
+                    IPDPS 2025, Milan, Italy. <a href="./jintao/paper/IPDPS.pdf">[Paper]</a>
+                </li>
+                <li>
+                    Du Wu*, <strong>Jintao Meng*</strong>, et al. <strong>autoGEMM: Pushing the Limits of Irregular Matrix Multiplication on Arm Architectures</strong>, 
+                    SC 2024, Atlanta, Georgia. (CCF A) <a href="./jintao/paper/TVM_GEMM_SC2024.pdf">[Paper]</a>
+                </li>
+                <li>
+                    <strong>Jintao Meng</strong>, et al. <strong>Boosting the predictive performance with aqueous solubility dataset curation</strong>, 
+                    Nature Scientific Data, 2022. <a href="./jintao/paper/sdata.pdf">[Paper]</a>
+                </li>
+                <li>
+                    <strong>Jintao Meng</strong>, et al. <strong>Automatic Generation of High-Performance Convolution Kernels on ARM CPUs for Deep Learning</strong>, 
+                    IEEE TPDS, 2022. <a href="./jintao/paper/TPDS2022.pdf">[Paper]</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="section-label">Master Students:</div>
+        <div class="section-content">
+            <ul>
+                <li>Chen Zhuang (Graduated 2022, now Ph.D. at RIKEN)</li>
+                <li>Du Wu (Graduated 2023, now Ph.D. at RIKEN)</li>
+                <li>Jiang Chen (Graduated 2024, now at Tencent AI Lab)</li>
+                <li>Cong Ma (Current student, Intern at Tencent AI Lab)</li>
+            </ul>
+        </div>
+    </section>
 
+    <hr>
 
-<table bgcolor="#ffffff">
-    <tbody><tr>
- 
- <td valign="middle" width="230" align="center" bgcolor="#FFFFFF">
-  <!--img border="0" src="image/baoyg.jpg" width="168" height="200"-->
-  <img src="./jintao/meng.jpg" border="0">
-      </td>
+    <div class="footer-info">
+        Last updated: July 2, 2024.
+    </div>
 
-
-  <td bgcolor="#FFFFFF">
-Jintao Meng is a Associate Researcher in <a href="http://www.siat.ac.cn/" target="_blank">Shenzhen Institute of Advanced Technology, CAS </a>. Jintao received his PH.D degree in computer architecture from Institute of Computing Technology in 2016. His research interests include high performance computing, deep learning, bioinformatics, and graph computing.
-
-He worked as a Research Engineer from 2008 to 2016 at the Shenzhen Institute of Advanced Technology, CAS. In 2014, he visited the Mathematics and Computing Division (MCS) of Argonne National Laboratory in the United States. In 2016, he served as a visiting scholar at Huawei's Noah's Ark Laboratory (Hong Kong). From 2017 to 2020, he is a senior Research Engineer at Tencent AI Lab. Since 2020, he served as an associate researcher at the High Performance Computing Center of Shenzhen Institute of Advanced Technology, CAS. 
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
-  <tbody><tr><td width="606" bgcolor="#FFFFFF"> 
-      <ul>
-	<b>Address:</b>
-  <p>
-      NO. 1068, Xueyuan Avenue, Shenzhen University Town, Nanshan Dist,<br>
-      Shenzhen, P.R.China 518055 <br>
-      Phone: (86)0755-86392367, 15602983160<br> 
-      Email:&nbsp; jt.meng@siat.ac.cn, meng.jintao@gmail.com
-      </p></ul>
- </td>
-</tr></tbody></table>
-
-      </td>
-
- </tr>
- 
-</tbody></table>
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF"> 
-      <div align="Right"><b>Research&nbsp;</b></div>
-      <div align="Right"><b>Interests:</b></div>
- </td>
-  <td width="606" bgcolor="#FFFFFF"> 
-      <ul>
-        <li><p style="margin-top: 0; margin-bottom: 0"> High Performance Computing
-        </p></li><li><p style="margin-top: 0; margin-bottom: 0">Parallel Graph Algorithms
-        </p></li><li><p style="margin-top: 0; margin-bottom: 0">Performance Optimization and Tuning
-        </p></li><li><p style="margin-top: 0; margin-bottom: 0"> <a href="./jintao/CV/CV_jtmengen.pdf" target="_blank"> CV</a>
-      </p></li></ul>
- </td>
-</tr></tbody></table>
-
-<hr>
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF"> 
-      <div align="Right"><b>PH.D dissertation:</b></div>
- </td>
-  <td width="606" bgcolor="#FFFFFF"> 
-      <ul>
-        <li><p style="margin-top: 0; margin-bottom: 0"> Title: Highly Scalable De Novo Genome Assembly
-        </p></li><li><p style="margin-top: 0; margin-bottom: 0"> <a href="./jintao/slides/jtmeng_Research_Proposal.pptx" target="_blank">Research Proposal（开题报告）</a>
-		</p></li><li><p style="margin-top: 0; margin-bottom: 0"> <a href="./jintao/slides/jtmeng_Midterm.pptx" target="_blank">Mid-term Report（中期报告）</a>
-		</p></li><li><p style="margin-top: 0; margin-bottom: 0"> <a href="./jintao/paper/jtmeng_dissertation.pdf" target="_blank">PH.D dissertation</a>
-      </p></li></ul>
- </td>
-</tr></tbody></table>
-
-<hr>
-
-
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF"> 
-      <div align="Right"><b>Selected Publications:<br>
-(<a href="http://www.informatik.uni-trier.de/%7Eley/pers/hd/b/Bao:Yungang.html" target="_blank">Full List</a>)</b></div>
- </td>
-  <td bgcolor="#FFFFFF"> 
-  <ul>
-   <li> Cong Ma, Du Wu, Zhelang Deng, Jiang Chen, Xiaowen Huang, Jintao Meng, Wenxi Zhu, Bingqiang Wang, Amelie Chi Zhou, Peng Chen, Minwen Deng, Yanjie Wei, Shengzhong Feng, Yi Pan, NM-SpMM: Accelerating Matrix Multiplication Using N:M Sparsity with GPGPU, in Proceedings of the 39th IEEE International Parallel \& Distributed Processing Symposium (IPDPS 2025), June 3-7, 2025, Milan, Italy. <a href="./jintao/paper/IPDPS.pdf">[Paper] </a> </li>
-   <li> Xiaowen Huang, Renjie Mao, Lvfang Tao, Wenxi Zhu, and Minwen Deng, Xu Zhang, Jintao Meng, and Yanjie Wei, Nan Zhou, Amelie Chi Zhou, Bingqiang Wang, and Shengzhong, Parallel Code Generation with Large Language Model, IEEE ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP 2025) Workshop FCPC 2025, March 1-5, Las Vegas, Nevada, United States. <a href="./jintao/paper/FCPC.pdf"> [Paper] </a>  <a href="jintao/slides/FCPC2025-xuzhang-2035.pptx">[Slides] </a></li>
- 
-   <li> Du Wu*, <b>Jintao Meng*</b>, Wenxi Zhu, Minwen Deng, Mohamed Wahib, Tao Luo, Yanjie Wei, autoGEMM: Pushing the Limits of Irregular Matrix Multiplication on Arm Architectures, in Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (<b>SC 2024</b>), Atlanta, Georgia, Nov. 2024. (CCF A) <a href="./jintao/paper/TVM_GEMM_SC2024.pdf"> [Paper] </a> <a href="./jintao/slides/sc24.pptx"> [Slides] </a> </li>
-
-  <li> Zhen Ju, Jingjing Zhang, Xuelei Li, <b>Jintao Meng</b>, Yanjie Wei, SeedHit: a GPU friendly pre-align filtering algorithm, <b> IEEE/ACM Transactions on Computational Biology and Bioinformatics</b>, 2024, 1(1): 1-9 (IF=4.5, JCR Q1) <a href="./jintao/paper/TCBB3417517.pdf"> [Paper] </a> </li>
-
-  <li> Zhizhao Wang, Xuelei Li, Jianping Fan, Jintao Meng, Zhenli Lin, Yi Pan, Yanjie Wei, SWsnn: A Novel Simulator for Spiking Neural Networks, <b>Journal of Computational Biology</b>, 2023, 30(9): 951-960 (IF=1.7, JCR Q2) <a href="./jintao/paper/wang-et-al-2023-swsnn-a-novel-simulator-for-spiking-neural-networks.pdf" target="_blank"> [Paper] </a> </li>
-
-
-   <li> Huaipeng Zhang, Nhut-Minh Ho, Yigit Polat Dogukan, Peng Chen, Mohamed Wahib, Truong Thao Nguyen, <b>Jintao Meng</b>, Rick Siow Mong Goh, Satoshi Matsuoka, Tao Luo, Weng-Fai Wong, Simeuro: A Hybrid CPU-GPU Parallel Simulator for Neuromorphic Computing Chips, <b> IEEE Transactions on Parallel and Distributed Systems</b>, 2023 (IF=4.18, JCR Q1) <a href="./jintao/paper/Simeuro.pdf"> [Paper] </a> </li> 
-
-   <li> Tao Shen, Fuxu Liu, Zechen Wang, Jinyuan Sun, Yifan Bu, <b>Jintao Meng</b>, Weihua Chen, Yuguang Mu, Weifeng Li, Guoping Zhao, Sheng Wang, Yanjie Wei, Liangzhen Zheng, zPoseScore model for accurate and robust protein-ligand docking pose scoring in CASP15, <b> PROTEINS: Structure, Function, and Bioinformatics </b> (IF=4.088, JCR Q2, CASP 15 invited paper, rank 2 on protein-ligand complexes prediction) <a href="./jintao/paper/20230414_zPoseScore_CASP15_Protein.pdf" target="_blank">[Paper]</a> </li>
-
-  <li> Lingqi Zhang, Mohamed Wahib,Peng Chen, <b>Jintao Meng</b>, Xiao Wang, Toshio Endo, Satoshi Matsuoka, PERKS: a Locality-Optimized Execution Model for Iterative Memory-bound GPU Applications, <b>37th ACM International Conference on Supercomputing</b> (<i>ICS 2023</i>), June 2023, Orlando, USA （CCF B ）<a href="./jintao/paper/PERKS.pdf"> [Paper] </a> </li>
-
-   <li> Lingqi Zhang, Mohamed Wahib, Peng Chen, <b>Jintao Meng</b>, Xiao Wang, Toshio Endo, Satoshi Matsuoka, Revisiting Temporal Blocking Stencil Optimizations,  <b>37th ACM International Conference on Supercomputing</b> (<i>ICS 2023</i>), June 2023, Orlando, USA （CCF B）<a href="./jintao/paper/Stencil.pdf"> [Paper] </a> </li>
-
-   <li> Lingqi Zhang, Mohamed Wahib,Peng Chen, <b>Jintao Meng</b>, Xiao Wang, Toshio Endo, Satoshi Matsuoka, 
-Exploiting Scratchpad Memory for Deep Temporal Blocking, <b>The 15th Workshop on General Purpose Processing Using GPU</b> (<i>GPGPU 2023</i>), Feb 2023, MONTREAL, CANADA. <a href="./jintao/paper/DeepTemporalBlocking.pdf"> [Paper] </a> </li> 
-
-   <li> <b>Jintao Meng</b>, Peng Chen, Mohamed Wahib, Mingjun Yang, Liangzhen Zheng, Yanjie Wei, Shengzhong Feng, Wei Liu, Boosting the predictive performance with aqueous solubility dataset curation, <b>Nature Scientific Data</b>, 2022, 9(1): 1-13 (IF=9.8, JCR Q1) <a href="./jintao/paper/sdata.pdf" target="_blank">[Paper]</a> </li>
-
-   <li> <b>Jintao Meng</b>, Chen Zhuang, Peng Chen, Mohamed Wahib, Bertil Schmidt, Xiao Wang, Haidong Lan, Dou Wu, Minwen Deng, Yanjie Wei, Shengzhong Feng, Automatic Generation of High-Performance Convolution Kernels on ARM CPUs for Deep Learning, <b>IEEE Transactions on Parallel and Distributed Systems</b>, 2022, 33(11): 2885-2899 (IF=5.3, JCR Q1) <a href="./jintao/paper/TPDS2022.pdf" target="_blank">[Paper]</a> </li>
-
-   <li> Ju Zhen, Huiling Zhang, <b>Jintao Meng</b>, etc, nGIA: A novel Greedy Incremental Alignment based algorithm for gene sequence clustering, <b>Future Generation Computer Systems</b>, 2022 (IF=7.5, JCR Q1) <a href="./jintao/paper/nGIA.pdf"> [Paper] </a> </li>
-
-   <li> Liangzhen Zheng, <b>Jintao Meng</b>, etc, Improving protein–ligand docking and screening accuracies by incorporating a scoring function correction term, <b>Briefings in Bioinformatics</b>, 2022, 23(3) (IF=9.5, JCR Q1) <a href="./jintao/paper/bbac051-BIB.pdf"> [Paper] </a> </li>
-
-   <li> Huiling Zhang, Ying Huang, Zhendong Bei, Zhen Ju, <b>Jintao Meng</b>, etc, Inter-Residue Distance Prediction From Duet Deep Learning Models, <b>Frontiers in Genetics</b>, 2022, 13 (IF=3.7, JCR Q2) <a href="./jintao/paper/fgene-13-887491.pdf"> [Paper] </a> </li>
-
-   <li> Haidong Lan, Wenxi Zhu, Qian Qiu, Dou Wu, Honglin Zhu, Jingjing Zhao, Xinghui Fu, Minwen Deng, <b>Jintao Meng*</b>, Efficient Phase-Functioned Real-time Character Control in Mobile Games: A TVM Enabled Approach, <b>in Proceeding of the 45th International Conference on Parallel Processing</b> (ICPP 2022), Bordeaux, France. (Accept rate: 19%， CCF B) <a href="./jintao/paper/icpp2022.pdf"> [Paper] </a> <a href="./jintao/paper/icpp2022-ppt.pdf"> [Slides] </a> <a href="./jintao/paper/icpp2022-talk.mp3"> [Talk] </a> </li>
-
-   <li> Liangzhen Zheng, <b>Jintao Meng*</b>, Mingzhi Lin, Rui Lv, Hongxi Cheng, Lixin Zou, Jinyuan Sun, Linxian Li, Ruobing Ren, Sheng Wang, Structure Prediction of the whole Proteome of Monkeypox variants, in <b>Acta Materia Media</b>, 2022. <a href="./jintao/paper/amm20220017.pdf"> [Paper] </a> </li>
-
-   <li> Jianqiu Ge, <b>Jintao Meng*</b>, Ning Guo, Yanjie Wei, Pavan Balaji, Shengzhong Feng, Counting kmers for biological sequences at large scale, <b>Interdisciplinary Sciences: Computational Life Sciences</b>, 2020, 12(1): 99-108 (IF=4.8, JCR Q1)  <a href="./jintao/paper/CountingKmer.pdf"> [Paper] </a> </li>
-
-   <li>	Haidong Lan, <b>Jintao Meng*</b>, Christian Hundt*, Bertil Schmidt, Minwen Deng, Xiaoning Wang, Weiguo Liu, Yu Qiao, Shengzhong Feng, FeatherCNN: Fast Inference Computation with TensorGEMM on ARM Architectures, <b>IEEE Transactions on Parallel and Distributed Systems</b>, pp. 580-594, March, 2020. (IF=5.3, JCR Q1) <a href="./jintao/paper/tpds_feathercnn.pdf" target="_blank">[Paper]</a> </li>
-
-
-   <li> <b>Jintao Meng</b>, Ning Guo, Jianqiu Ge, Yanjie Wei*, Pavan Balaji, Bingqiang Wang, Scalable Assembly for Massive Genomic Graphs, <b>CCGrid 2017 Scale Challenge finalist</b>, May, 2017. （CCF C）
-<br>
-
-   <li> <b>Jintao Meng</b>, Sangmin Seo, Pavan Balaji, Yanjie Wei, Bingqiang Wang, Shengzhong Feng, <b> SWAP-Assembler 2: Optimization of De Novo Genome Assembler at Extreme Scale</b>, <i>in Proceeding of the 45th International Conference on Parallel Processing (ICPP 2016), Philadelphia, PA, 2016. (Accept rate: 18%)</i> <a href="./jintao/paper/swap2.pdf" target="_blank">[Paper]</a> </li>
-
-
-   <li><b>Jintao Meng</b>, Sangmin Seo, Pavan Balaji, Yanjie Wei, Bingqiang Wang, Shengzhong Feng, <b> SWAP-Assembler 2: Scalable Genome Assembler towards Millions of Cores - Practice and Experience</b>, <i>in ATIP workshop in Supercomputing 2015 (Supercomputing 2015), Austin, 2015 </i> <a href="./jintao/poster/SWAP2-SC2015_atip.pdf" target="_blank">[Poster]</a> </li>
-
-   <li><b>Jintao Meng</b>, Sangmin Seo, Pavan Balaji, Yanjie Wei, Bingqiang Wang, Shengzhong Feng, <b>SWAP-Assembler 2: Scalable Genome Assembler towards Millions of Cores - Practice and Experience</b>, <i>in 15th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (<b>CCGrid'15</b>)-Doctoral Symposium, May, 2015.</i>  <a href="./jintao/paper/CCGrid 2015-SWAP2.pdf" target="_blank">[pdf]</a> </li>
-
-
-   <li><b>Jintao Meng</b>, Guixin Guo, Bingqiang Wang, Yanjie Wei, Jiefeng Cheng, Shenzhong Feng,<b>An Ultra-fast Memory Efficient Parallel List Ranking Algorithm for BSP Based Graph Processing Systems</b>, <i>HPC-China 2014, Guangzhou. </i> <a href="./jintao/paper/hpcchina2014_listranking.pdf" target="_blank">[pdf]</a> </li>
-
-   <li>Jintao Meng, Bingqiang Wang, Yanjie Wei, Shengzhong Feng, Pavan Balaji.<b> SWAP-Assembler: Scalable and Efficient Genome Assembly towards Thousands of Cores</b>, <i>BMC Bioinformatics, Vol. 15 Supplement 9, 2014</i> (IF=3.0, JCR Q1)<a href="./jintao/paper/BMC_Bioinformatics2014.pdf" target="_blank">[pdf]</a> </li>
-
-   <li>Jintao Meng, Bingqiang Wang, Yanjie Wei, Shengzhong Feng, Pavan Balaji. <b> SWAP-Assembler: Scalable and Efficient Genome Assembly towards Thousands of Cores</b>, <i>in 4th annual RECOMB satellite workshop on massively parallel sequencing (<b>RECOMB-seq 2014</b>), April, 2014.</i>  <a href="./jintao/paper/Recombseq 2014_SWAP.pdf" target="_blank">[pdf]</a> </li>
-
-
-   <li>Jintao Meng, Bingqiang Wang, Yanjie Wei, Jiefeng Cheng, Shengzhong Feng, Pavan Balaji. <b>SWAP-Assembler: A Scalable De Bruijn Graph Based Assembler for Massive Genome Data</b>, in 17th annual international conference on research in computational molecular biology (<b>RECOMB 2013</b>), April, 2013.</i> (Poster) </i><a href="./jintao/paper/Recomb_2013_SWAP.pdf" target="_blank"> [pdf]</a> </li>
-
-
-   <li>Jintao Meng, Jianrui Yuan, Yanjie Wei, Jiefeng Cheng, Shengzhong Feng, <b>Small World Asynchronous Parallel Model for Genome Assembly</b>, <i>in 9th IFIP International Conference on Network and Parallel Computing (NPC 2012), Sep.6, Gwangju, Korea</i> <a href="./jintao/paper/NPC 2012_SWAP.pdf" target="_blank">[pdf]</a> </li>
-
-<br>
-
-        
-  </ul>
-</td></tr></tbody></table>
-
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF">
-      <div align="Right"><b>Colleagues and Collaborators:</b></div>
- </td>
-  <td width="606" bgcolor="#FFFFFF">
-      <ul>
-        <li><a href="http://159.226.41.140/cmy/?page_id=12" target="_blank">Bingqiang Wang</a>
-        <br>
-        </li><li><a href="http://novel.ict.ac.cn/ychen/" target="_blank">Jiefeng Cheng</a>
-        <br>
-        </li><li><a href="http://www.mcs.anl.gov/~balaji/" target="_blank">Pavan Balaji</a>
-        <br>
-        </li><li><a href="http://acs.ict.ac.cn/baoyg/" target="_blank">Yungang Bao</a>
-        <br>
- </li></ul>
- </td>
-</tr></tbody></table>
-<hr>
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF">
-      <div align="Right"><b>Master students :</b></div>
- </td>
-  <td width="806" bgcolor="#FFFFFF">
-      <ul>
-		</li><li>Chen  Zhuang,    graduated in 2022, now is a PH.D student in RIKEN.
-		</li><li>Du    Wu,        graduated in 2023, now is a PH.D student in RIKEN.
-		</li><li>Jiang Chen,      graduated in 2024, now is in Tencent AI Lab.
-		</li><li>Cong  Ma,        master student from 2022, intern in Tencent AI Lab.
-		</li><li>Zizhao Wang,     master student from 2022.
-		</li><li>Xiaowen Huang,   master student of Shenzhen University from 2023, intern in Tencent AI Lab.
-		</li><li>Xu Zhang,        master student from 2024, intern in Tencent AI Lab.
- </li></ul>
- </td>
-</tr></tbody></table>
-<hr>
-
-
-<hr>
-<table bgcolor="#ffffff" cellpadding="2" cellspacing="0">
- <tbody><tr><td valign="Top" width="180" bgcolor="#FFFFFF">
-      <div align="Right"><b>Honor :</b></div>
- </td>
-
- <td valign="middle" width="120" align="center" bgcolor="#FFFFFF">
-  <!--img border="0" src="image/baoyg.jpg" width="168" height="200"-->
-  <img src="./jintao/pic/ACM-IPCC1.jpg" border="0">
-      </td>
-
-</tr></tbody></table>
-<hr>
-
-
-<script src="Yungang%20Bao%20%28%E5%8C%85%E4%BA%91%E5%B2%97%29_files/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-2460784-1";
-urchinTracker();
-</script>
-<font size="2">Last updated: July 2, 2024.</font>
-
-
-
-
-
-
-
-
-
-
-    
-  </body>
-
-
-
-
-  
+</body>
 </html>
-
